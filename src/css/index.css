@@ -1,0 +1,164 @@
+@import './variables.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: url('../images/bg-mobile.svg') no-repeat;
+  background-size: contain;
+  background-color: var(--violet);
+  min-height: 100vh;
+}
+
+@media (min-width: 720px) {
+  body {
+    background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
+  }
+}
+
+.container {
+  padding: 4rem 3rem;
+  min-width: 375px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (min-width: 720px) {
+  .container {
+    position: relative;
+    padding: 4rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  .flex-left {
+    width: 60%;
+  }
+
+  .flex-right {
+    width: 40%;
+  }
+}
+
+.logo {
+  width: 40%;
+  max-width: 20rem;
+}
+
+.ilustration {
+  margin: 6rem 0;
+}
+
+.title,
+.text {
+  text-align: center;
+  color: var(--white);
+}
+
+@media (min-width: 720px) {
+  .title,
+  .text {
+    text-align: left;
+  }
+}
+
+.title {
+  font-family: var(--font-poppins);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+@media (min-width: 720px) {
+  .title {
+    font-size: 3.2rem;
+  }
+}
+
+.text {
+  margin-top: 2rem;
+  font-family: var(--font-open-sans);
+  font-size: 1.7rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 720px) {
+  .text {
+    font-size: 1.9rem;
+  }
+}
+
+.button {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--font-poppins);
+  color: var(--violet);
+  background-color: var(--white);
+  padding: 1rem 7rem;
+  margin: 3rem auto;
+  border-radius: 10rem;
+  outline: none;
+  border: none;
+  box-shadow: 0px 5px 10px -7px #000;
+}
+
+@media (min-width: 720px) {
+  .button {
+    margin-left: 0;
+  }
+}
+
+.button:hover {
+  background-color: var(--soft-magenta);
+  color: var(--white);
+}
+
+.social-media {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  .social-media {
+    position: absolute;
+    bottom: 8rem;
+    right: 8rem;
+  }
+}
+
+.social-media a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border: 1px solid var(--white);
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: var(--soft-magenta);
+  border-color: var(--soft-magenta);
+}

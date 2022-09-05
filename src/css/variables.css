@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+
+  /* ### Primary */
+
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Fonts */
+
+  /* weights -- 400, 600 */
+  --font-poppins: 'Poppins', sans-serif;
+  /* weight -- 400 */
+  --font-open-sans: 'Open Sans', sans-serif;
+}
