@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
-- Live Site URL: [Huddle landing page with single introductory section solution](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-solution-WA-Wnko8f2)
+- Live Site URL: [Huddle landing page with single introductory section solution](https://axldev96.github.io/huddle-landing-page-with-single-introductory-section-solution/)
 
 ## My process
 
